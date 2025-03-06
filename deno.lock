@@ -2,6 +2,7 @@
   "version": "4",
   "specifiers": {
     "jsr:@openai/openai@*": "4.85.3",
+    "jsr:@openai/openai@4.86.2": "4.86.2",
     "npm:@types/node@*": "22.12.0",
     "npm:open@*": "10.1.0",
     "npm:openai@*": "4.78.1"
@@ -9,6 +10,9 @@
   "jsr": {
     "@openai/openai@4.85.3": {
       "integrity": "f1a3a380d934c2343181b9a33417a642d002908e15f29f71d0eea16d542528fd"
+    },
+    "@openai/openai@4.86.2": {
+      "integrity": "411b9a7b9ae259062154dd7d3f52bdda4a4932fad02e30248aac909587c72a8f"
     }
   },
   "npm": {

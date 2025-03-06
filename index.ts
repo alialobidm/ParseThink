@@ -1,9 +1,9 @@
-import type OpenAI from 'jsr:@openai/openai@4.85.3'
+import type OpenAI from 'jsr:@openai/openai@4.86.2'
 
 const REG_DEEPSEEK = /<think>[\s\S]*?<\/think>/
 
 /**
- * Parse think process of LLMs like DeepSeek-R1 and return the clean result and the think process.
+ * Parse think process of LLMs like DeepSeek-R1, QwQ, o3-mini and return the clean result and the think process.
  * @param raw raw response message from OpenAI
  * @returns parsed message with think field if exists
  */
